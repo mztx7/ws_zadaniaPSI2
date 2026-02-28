@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mateusz Winnicki | SC</title>
+    <meta name="description" content="Portfolio i CV jest jak jest">
+    <meta property="og:title" content="Mateusz Winnicki | SC">
+    <meta property="og:description" content="costamumie sie">
+    <meta property="og:image" content="img/yKYu58DWjJ.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="py-4 text-center">
+    <div class="container">
+        <h1>Mateusz Winnicki</h1>
+        <p class="lead">Cyber Secu</p>
+    </div>
+</header>
+
+<main>
+
+    <!-- a1 -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="img/yKYu58DWjJ.png" class="img-fluid rounded-circle profile-img"
+                         alt="Zdjęcie profilowe Jan Kowalski">
+                </div>
+                <div class="col-md-8">
+                    <h2>o mnie</h2>
+                    <p>text text text text text text text text text text text text</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- a2  -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2>umiejętności</h2>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>text text</li>
+                        <li>text text </li>
+                        <li>text text</li>
+                        <li>text text</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Narzędzia</h3>
+                    <ul>
+                        <li>text text</li>
+                        <li>text text</li>
+                        <li>text text</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Inne</h3>
+                    <ul>
+                        <li>text text</li>
+                        <li>text text</li>
+                        <li>text text</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projekty /doswiad -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2>Projekty</h2>
+
+            <div class="accordion" id="projectsAccordion">
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#project1">
+                            BOXBOX
+                        </button>
+                    </h3>
+                    <div id="project1" class="accordion-collapse collapse show"
+                         data-bs-parent="#projectsAccordion">
+                        <div class="accordion-body">
+                            BOXBOX-descr
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#project2">
+                            BOXBOX2
+                        </button>
+                    </h3>
+                    <div id="project2" class="accordion-collapse collapse"
+                         data-bs-parent="#projectsAccordion">
+                        <div class="accordion-body">
+                            BOXBOX-descr2
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- kolor -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Zmiana koloru tła</h2>
+            <input type="range" min="0" max="360" value="210" id="colorSlider">
+        </div>
+    </section>
+
+    <!-- kontakt -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2>Kontakt</h2>
+
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label">Imię</label>
+                    <input type="text" class="form-control" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" required>
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label">Wiadomość</label>
+                    <textarea class="form-control" rows="4" required></textarea>
+                </div>
+
+                <div class="col-12">
+                    <button class="btn btn-primary">Wyślij</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="text-center py-4">
+    <p>© 2026 Mateusz</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
